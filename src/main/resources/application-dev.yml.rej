@@ -1,0 +1,13 @@
+diff a/src/main/resources/application-dev.yml b/src/main/resources/application-dev.yml	(rejected hunks)
+@@ -4,9 +4,9 @@
+         driverClassName: com.mysql.jdbc.Driver
+         druid:
+             first:  #数据源1
+-                url: jdbc:mysql://47.98.60.13:3306/dy?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
++                url: jdbc:mysql://47.98.60.13:3306/dy?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8 #47.98.60.13 #13.209.8.191
+                 username: root
+-                password: Ruizhi88628864
++                password: Ruizhi88628864 #sxy19891126
+             second:  #数据源2
+                 url: jdbc:mysql://47.98.60.13:3306/dy?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+                 username: root
