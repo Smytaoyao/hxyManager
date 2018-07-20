@@ -4,15 +4,15 @@ server:
         uri-encoding: UTF-8
         max-threads: 512
         min-spare-threads: 20
-    port: 8089
+    port: 9000
     connection-timeout: 5000
     servlet:
-      context-path: /ruiz
+      context-path: /hxy
 
 spring:
     # 环境 dev|test|prod
     profiles:
-        active: prod
+        active: dev
     # jackson时间格式化
     jackson:
         time-zone: GMT+8
